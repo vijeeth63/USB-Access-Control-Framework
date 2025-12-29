@@ -1,6 +1,6 @@
-### USB Access Control Kernel Module
+# USB Access Control Kernel Module
 
-# Overview
+### Overview
 
 This project implements a Linux kernel module that decides whether a USB storage device is allowed or blocked at the moment it is plugged in.
 
@@ -8,7 +8,7 @@ It works by intercepting USB device enumeration inside the Linux kernel and appl
 
 This project was developed as an operating systems mini-project and serves as an introduction to Linux kernel programming, USB subsystem interaction, and kernel-level security enforcement.
 
-# What This Project Demonstrates (OS Perspective)
+### What This Project Demonstrates (OS Perspective)
 
 How the Linux kernel handles USB device enumeration
 How kernel modules can enforce security policies
@@ -16,7 +16,7 @@ Kernel ↔ userspace interaction using sysfs
 Early rejection of hardware devices (-EACCES)
 Safe, minimal kernel design for educational purposes
 
-# Key Features
+### Key Features
 
 Per-Device USB Access Control
 USB devices are allowed or blocked based on their VID/PID combination.
